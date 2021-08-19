@@ -4390,13 +4390,12 @@ textarea.form-control-lg {
   color: rgba(182, 190, 226, 0.9);
 }
 .navbar-light .navbar-toggler {
-  color: rgba(236, 202, 202, 0.55);
   border-color: rgba(0, 0, 0, 0.1);
 }
 .navbar-light .navbar-toggler-icon {
   width: 35px;
   height: 5px;
-  background-color: rgb(15, 0, 146);
+  background-color: silver;
   margin: 6px 0;
 }
 .navbar-light .navbar-text {

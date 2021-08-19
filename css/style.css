@@ -7,11 +7,17 @@ body{
     background: black;
 }
 .top{
-    height: 100vh;
-    width: 100vw;
-    background-color: black;
+    background-color: black(192, 177, 177);
     color: white;
 }
+.heading{
+    align-self: center;
+}
 img{
-    width: 360px;
+    width: 330px;
+}
+.join-btn{
+    border-radius: 25%;
+    background-color: silver;
+    width: 5rem;
 }
