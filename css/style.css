@@ -1,12 +1,17 @@
 *{
-    overflow-y: hidden;
+    overflow-x: hidden;
 }
 body{
     margin: 0;
     padding: 0;
     background: black;
 }
+.scrolled{
+    background: rgb(209, 200, 200);
+}
 .top{
+    width: 100vw;
+    height: 80vh;
     background-color: black(192, 177, 177);
     color: white;
 }
@@ -30,4 +35,43 @@ img{
     border-color: silver;
     border: 2px solid;
     transition: .5s ease-in;
+}
+.about{
+    width: 100vw;
+    height: 80vh;
+    background-color: red;
+    color: white;
+}
+.services{
+    width: 100vw;
+    height: 80vh;
+    background-color: rgb(22, 16, 16);
+    color: white;
+}
+.partners{
+    width: 100vw;
+    height: 80vh;
+    background-color: rgb(117, 114, 114);
+    color: white;
+}
+.contact{
+    width: 100vw;
+    height: 80vh;
+    background-color: rgb(107, 37, 37);
+    color: white;
+}
+.copyright{
+    height: 6vh;
+    width: 100vw;
+    background-color: rgb(0, 0, 0);
+    align-self: center;
+    color: silver;
+    line-height: 25px;
+}
+.copy a{
+    text-decoration: none;
+    color: silver;
+}
+.copy a:hover{
+    color: rgb(114, 113, 113);
 }
