@@ -16,8 +16,18 @@ body{
 img{
     width: 330px;
 }
+.join-btn a{
+    text-decoration: none;
+}
 .join-btn{
     border-radius: 25%;
     background-color: silver;
     width: 5rem;
+}
+.join-btn:hover{
+    color: silver;
+    background-color: black;
+    border-color: silver;
+    border: 2px solid;
+    transition: .5s ease-in;
 }
