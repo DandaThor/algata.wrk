@@ -9,6 +9,15 @@ body{
 .mt{
     margin-top: 10vh;
 }
+.float{
+    float: left;
+    list-style: none;
+    padding: 0em .5em;
+    color: silver;
+}
+.icons a{
+    color: silver;
+}
 .top{
     width: 100vw;
     background-color: black(192, 177, 177);
