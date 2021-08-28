@@ -31,7 +31,12 @@ header img{
     background-size: cover;
     color: white;
 }
-
+.row{
+    height: 95vh;
+}
+.heading{
+    align-self: center;
+}
 video{
     width: 100vw;
 }
