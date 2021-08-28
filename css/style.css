@@ -9,6 +9,9 @@ body{
 .bg-dark{
     background-color: #0d0a1b !important;
 }
+header img{
+    width: 10.5rem;
+}
 .mt{
     margin-top: 10vh;
 }
