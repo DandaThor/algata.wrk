@@ -4,7 +4,7 @@
 body{
     margin: 0;
     padding: 0;
-    background: black;
+    background: #0d0a1b;
 }
 .bg-dark{
     background-color: #0d0a1b !important;
@@ -26,6 +26,7 @@ header img{
 }
 .top{
     width: 100vw;
+    height: 80vh;
     background-color: black(192, 177, 177);
     color: white;
 }
