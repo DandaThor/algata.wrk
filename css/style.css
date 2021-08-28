@@ -6,6 +6,9 @@ body{
     padding: 0;
     background: black;
 }
+.bg-dark{
+    background-color: #0d0a1b !important;
+}
 .mt{
     margin-top: 10vh;
 }
@@ -23,27 +26,15 @@ body{
     background-color: black(192, 177, 177);
     color: white;
 }
-.heading{
-    align-self: center;
+video{
+    width: 100vw;
 }
-img{
-    width: 330px;
+@media(min-width:1213px) {
+    video{
+        height: 80vh;
+    }
 }
-.join-btn a{
-    text-decoration: none;
-}
-.join-btn{
-    border-radius: 25%;
-    background-color: silver;
-    width: 5rem;
-}
-.join-btn:hover{
-    color: silver;
-    background-color: black;
-    border-color: silver;
-    border: 2px solid;
-    transition: .5s ease-in;
-}
+
 .about{
     width: 100vw;
     height: 80vh;
