@@ -64,8 +64,20 @@ video{
 }
 .services{
     width: 100vw;
-    height: 80vh;
     color: white;
+}
+.card{
+    background: #28233a;
+}
+.card:hover{
+    margin-top: 2.7rem !important;
+    transition:  ease .3s;
+}
+.card-body{
+    display: flex;
+    height: 12rem;
+    justify-content: center;
+    align-items: center;
 }
 .partners{
     width: 100vw;color: white;
@@ -77,6 +89,18 @@ video{
 .contact{
     width: 100vw;
     color: white;
+}
+.mail-phone .fa{
+    display: initial !important;
+}
+.mail-phone a{
+    color: silver;
+    text-decoration: none;
+}
+@media (max-width:765px) {
+    .mail-phone{
+        text-align: center;
+    }
 }
 .copyright{
     width: 100vw;
