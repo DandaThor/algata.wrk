@@ -32,8 +32,8 @@ header img{
 .top{
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(to bottom, rgba(39, 37, 37, 0) 0%, rgba(34, 33, 33, 0) 59%, rgba(39, 38, 38, 0.65) 100%), url(../assets/pierre-borthiry-vBCVcWUyvyM-unsplash.jpg) no-repeat;    
-    background-size: cover;
+    background: rgb(2,0,36);
+    background: linear-gradient(200deg, rgba(2,0,36,1) 0%, rgba(12,10,20,1) 52%, rgba(9,9,121,1) 100%);    background-size: cover;
     color: white;
 }
 .centering
@@ -48,9 +48,8 @@ header img{
     font-weight: bolder;
     color: rgba(255, 255, 255, 0.2);
 }
-video{
-    width: 100vw;
-}
+
+
 @media(min-width:1213px) {
     video{
         height: 80vh;
@@ -85,6 +84,9 @@ video{
 .partners img{
     width: 14rem;
 }
+video{
+    width: 100vw;
+}
 
 .contact{
     width: 100vw;
@@ -100,6 +102,14 @@ video{
 @media (max-width:765px) {
     .mail-phone{
         text-align: center;
+    }
+}
+@media (max-width:576px) {
+    .cardpadding{
+        padding: 0rem 2rem;
+    }
+    form{
+        padding: 0rem 1rem;
     }
 }
 .copyright{
