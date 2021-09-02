@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+  <!--BY https://algata.ga-->
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/style.css">
   <script src="https://use.fontawesome.com/dd30fe193f.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -43,12 +44,12 @@
   <section id="home" class="top">
     <div class="container">
       <div class="row centering">
-        <div class="col-lg-6 col-12 text-center heading1">
-
+        <div class="col-lg-6 col-12 text-center heading1 mt-5">
+          <img src="https://jdsupra-html-images.s3-us-west-1.amazonaws.com/b360a53a-5486-449a-892a-bf3d1862af31-blockchain.png" height="400" alt="">
         </div>
         <div class="col-lg-6 col-12 text-center heading1 pt-5">
           <h1>Promote Your Project<br>With Us</h1>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas numquam cumque consectetur fugiat minima repudiandae esse, iusto a sunt officia.</p>
+          <p>We are challengers your perfect crypto project promoter.</p>
           <a class="btn btn-outline-light btn-floating m-1" href="recentama.html" role="button">View Recent AMA's</a>
         </div>
       </div>
@@ -58,7 +59,14 @@
 
   <section id="about" class="about">
     <div class="heading text-center mt-3">
-      About Us
+      Who Are We?
+    </div>
+    <div class=" text-center mt-4 ps-4 pe-4">
+      <h5>We are Challengers</h5> 
+      <p>Crypto Challengers is a community having alots of crypto enthusiasts.
+        We host many AMA's for promoting the crypto projects.We have hosted over 100+ AMA's. 
+        We have partners from all over the globe.We conduct many giveaways for our community.
+      </p>  
     </div>
   </section>
 
@@ -149,17 +157,17 @@
     <div class="container contact-us-form">
       <div class="row">
         <div class="col-md-6">
-          <form class="row g-3 needs-validation" novalidate>
+          <form id="submit-form" class="row g-3 needs-validation" novalidate>
             <div>
               <label for="validationCustom01" class="form-label">Name</label>
-              <input type="text" class="form-control" id="validationCustom01"  required>
+              <input name="name" type="text" class="form-control" id="validationCustom01"  required>
               <div class="invalid-feedback">
                 Enter name
               </div>
             </div>
             <div>
               <label for="validationCustom02" class="form-label">Email</label>
-              <input type="text" class="form-control" id="validationCustom02"  required>
+              <input name="email" type="text" class="form-control" id="validationCustom02"  required>
               <div class="invalid-feedback">
                 Enter email
               </div>
@@ -167,14 +175,14 @@
             <div>
               <label for="validationCustomUsername" class="form-label">Message</label>
               <div class="input-group has-validation">
-                <textarea type="text" class="form-control" id="validationCustomUsername" rows="3" aria-describedby="inputGroupPrepend" required></textarea>
+                <textarea name="message" type="text" class="form-control" id="validationCustomUsername" rows="3" aria-describedby="inputGroupPrepend" required></textarea>
                 <div class="invalid-feedback">
                   Enter message
                 </div>
               </div>
             </div>
             <div class="col-12 text-center">
-              <button class="btn btn-primary" type="submit">Submit form</button>
+              <button class="btn btn-primary" value="submit" type="submit" >Submit form</button>
             </div>
           </form>
         </div>
@@ -192,13 +200,13 @@
 
   <footer class="copyright">
     <div class=" copy text-center pt-2">
-      © 2021 Copyright<strong><a href="#">cryptochallengers</a></strong><br>
-      Made with ღ by <a href="https://algata.ga">Algata</a>
+      © 2021<strong><a href="#">Crypto Challengers</a></strong>.All rights reserved.
     </div>
   </footer>
 
   <script src="js/index.js"></script>
   <script src="js/bootstrap.js"></script>
+
 </body>
 
 </html>

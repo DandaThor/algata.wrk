@@ -1,16 +1,23 @@
 *{
     overflow-x: hidden;
 }
+p{
+    font-size: 1rem;
+}
 body{
     margin: 0;
     padding: 0;
     background: #0d0a1b;
+    overflow-y: hidden;
 }
 .bg-dark{
     background-color: rgba(255, 255, 255, 0) !important;
 }
 .navbar{
     height: 3.675rem;
+}
+.fa:hover{
+    color: white;
 }
 .contain{
     padding-left: 2rem;
@@ -51,6 +58,9 @@ header img{
     font-weight: bolder;
     color: rgba(255, 255, 255, 0.2);
 }
+.btn{
+    border-radius: 10px;
+}
 
 
 @media(min-width:1213px) {
@@ -61,7 +71,6 @@ header img{
 
 .about{
     width: 100vw;
-    height: 80vh;
     color: white;
 }
 .services{
@@ -70,6 +79,10 @@ header img{
 }
 .card{
     background: #28233a;
+    border: 3px solid transparent;
+    border-image: linear-gradient(to right, red , yellow);
+    border-image-slice: 1;
+
 }
 .card:hover{
     margin-top: 2.7rem !important;
@@ -89,7 +102,7 @@ header img{
 }
 video{
     width: 100vw;
-}
+}   
 
 .contact{
     width: 100vw;
@@ -128,3 +141,9 @@ video{
 .copy a:hover{
     color: rgb(114, 113, 113);
 }
+
+@media (max-width:320px) {
+    .contain{
+        padding: 0;
+    }
+ }
