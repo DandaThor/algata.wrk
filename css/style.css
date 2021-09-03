@@ -14,7 +14,11 @@ body{
     background-color: rgba(255, 255, 255, 0) !important;
 }
 .navbar{
-    height: 3.675rem;
+    height: 4.675rem;
+}
+.navbar-brand{
+    text-decoration: none;
+    font-weight: bolder;
 }
 .fa:hover{
     color: white;
@@ -71,6 +75,7 @@ header img{
 
 .about{
     width: 100vw;
+    height: 95vh;
     color: white;
 }
 .services{
@@ -82,7 +87,7 @@ header img{
     border: 3px solid transparent;
     border-radius: 30px;
     background-image: linear-gradient(#0d0a1b,#0d0a1b ), 
-    linear-gradient(to right, rgb(49, 51, 49), rgb(168, 168, 164));
+    linear-gradient(to right, rgb(49, 51, 49), rgb(49, 51, 49));
     background-origin: border-box;
     background-clip: content-box, border-box;
   
@@ -98,9 +103,11 @@ header img{
     height: 12rem;
     justify-content: center;
     align-items: center;
+    padding: 0rem 2rem;
 }
 .partners{
-    width: 100vw;color: white;
+    width: 100vw;
+    color: white;
 }
 .partners img{
     width: 14rem;
