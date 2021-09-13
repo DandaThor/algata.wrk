@@ -105,6 +105,9 @@ header img{
     width: 80vh;
     height: 50vh;
 }
+.carousel-control-next-icon{
+    color: red;
+}
 .carousel-item img{
     height: 50vh;
 }
