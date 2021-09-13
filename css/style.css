@@ -92,6 +92,26 @@ header img{
     width: 100vw;
     color: white;
 }
+.about img{
+    height: 30rem;
+    width: 40rem;
+}
+.caro-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#carouselExampleIndicators{
+    width: 80vh;
+    height: 50vh;
+}
+.carousel-item img{
+    height: 50vh;
+}
+.caro-img{
+    height: 10vh !important;
+    margin-top: 25%;
+}
 .center{
     display: flex;
     justify-content: center;
@@ -152,6 +172,10 @@ video{
     }
 }
 @media (max-width:576px) {
+    .caro-img{
+        height: 10vh !important;
+        margin-top: 35%;
+    }
     .cardpadding{
         padding: 0rem 2rem;
     }
