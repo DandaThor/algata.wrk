@@ -170,14 +170,26 @@ video{
     text-decoration: none;
 }
 @media (max-width:765px) {
+    #caro{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .caro-img{
+        height: 10vh !important;
+        margin-top: 25%;
+    }
     .mail-phone{
         text-align: center;
     }
 }
 @media (max-width:576px) {
+    #caro{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
     .caro-img{
         height: 10vh !important;
-        margin-top: 35%;
+        margin-top: 40%;
     }
     .cardpadding{
         padding: 0rem 2rem;
