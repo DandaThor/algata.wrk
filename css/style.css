@@ -1,9 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+
+
 *{
     overflow-x: hidden;
 }
 p{
     font-size: 1rem;
+    font-family: 'Roboto';
 }
+h1{
+    font-family: 'Open',serif;
+}
+h4{
+    font-family: 'Lato',serif;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -43,12 +59,10 @@ header img{
 .top{
     width: 100vw;
     height: 100vh;
-    background: rgb(2,0,36);
-    background: rgb(2,0,36);
-    background: -moz-linear-gradient(200deg, rgba(2,0,36,1) 0%, rgba(12,10,20,1) 52%, rgba(9,9,121,1) 100%);
-    background: -webkit-linear-gradient(200deg, rgba(2,0,36,1) 0%, rgba(12,10,20,1) 52%, rgba(9,9,121,1) 100%);
-    background: linear-gradient(200deg, rgba(2,0,36,1) 0%, rgba(12,10,20,1) 52%, rgba(9,9,121,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#090979",GradientType=1);    color: white;
+    background-image: url("../assets/sdg.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
 }
 .centering
 {
@@ -58,9 +72,10 @@ header img{
     align-self: center;
 }
 .heading{
-    font-size: 3rem;
+    font-size: 2.3rem;
     font-weight: bolder;
     color: rgba(255, 255, 255, 0.2);
+    font-family: 'Open Sans', sans-serif;
 }
 .btn{
     border-radius: 10px;
