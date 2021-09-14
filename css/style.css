@@ -103,17 +103,17 @@ header img{
 }
 #carouselExampleIndicators{
     width: 80vh;
-    height: 50vh;
+    height: 30vh;
 }
 .carousel-control-next-icon{
     color: red;
 }
 .carousel-item img{
-    height: 50vh;
+    height: 30vh;
 }
 .caro-img{
     height: 10vh !important;
-    margin-top: 25%;
+    margin-top: 12%;
 }
 .center{
     display: flex;
@@ -176,20 +176,21 @@ video{
     }
     .caro-img{
         height: 10vh !important;
-        margin-top: 25%;
+        margin-top: 15%;
     }
     .mail-phone{
         text-align: center;
     }
 }
 @media (max-width:576px) {
+
     #caro{
         margin-left: 20px;
         margin-right: 20px;
     }
     .caro-img{
         height: 10vh !important;
-        margin-top: 40%;
+        margin-top: 20%;
     }
     .cardpadding{
         padding: 0rem 2rem;
