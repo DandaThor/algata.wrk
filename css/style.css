@@ -216,8 +216,9 @@ header img {
   width: 100vw;
   color: white;
 }
-.partners img {
-  width: 14rem;
+.partner-img{
+  height: 3rem;
+  width: fit-content;
 }
 video {
   width: 100vw;
@@ -227,6 +228,20 @@ video {
   width: 100vw;
   color: white;
 }
+.contact-us-form{
+  background-image: url("../assets/footer-earth.jpg");
+  background-repeat: no-repeat;
+  background-position-y: 50%;
+  background-size: cover;
+  height: fit-content;
+}
+.form-control{
+  width: 40rem;
+}
+.input-group{
+  width: 40rem;
+}
+.i
 .mail-phone .fa {
   display: initial !important;
 }
@@ -245,6 +260,7 @@ video {
   .top .mt-5 {
     margin-top: 1rem;
   }
+
 }
 @media (max-width: 765px) {
   #caro {
@@ -258,6 +274,7 @@ video {
   .mail-phone {
     text-align: center;
   }
+
 }
 @media (max-width: 576px) {
   .contain {
@@ -266,6 +283,12 @@ video {
   }
   nav a .logo {
     display: none;
+  }
+  .about .countnum{
+    font-size: 75px !important;
+  }
+  .about .countcon{
+    font-size: 20px;
   }
   .hastag{
     font-size: 2.2rem;
@@ -284,10 +307,9 @@ video {
   form {
     padding: 0rem 1rem;
   }
+
 }
 .copyright {
-  width: 100vw;
-  background-color: rgb(0, 0, 0);
   align-self: center;
   color: silver;
 }
@@ -302,5 +324,8 @@ video {
 @media (max-width: 320px) {
   .contain {
     padding: 0;
+  }
+  .top .pt-5{
+    padding-top: 4rem !important;
   }
 }
