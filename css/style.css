@@ -110,8 +110,15 @@ header img {
 .top .btn:hover {
   background-color: #e9704e;
 }
+
+.rocket-div{
+  height: max-content;
+  width: max-content;
+  overflow-y: hidden;
+}
 .rocket-image {
   height: 60vh;
+  width: auto !important;
 }
 .slow {
   --animate-duration: 20s;
@@ -229,7 +236,8 @@ video {
 }
 @media (max-width: 992px) {
   .rocket-image {
-    height: 45vh;
+    height: 42vh;
+    width: auto !important;
   }
   .top .pt-5 {
     padding-top: 10rem !important;
@@ -258,6 +266,9 @@ video {
   }
   nav a .logo {
     display: none;
+  }
+  .hastag{
+    font-size: 2.2rem;
   }
   #caro {
     margin-left: 20px;
