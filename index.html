@@ -168,33 +168,27 @@
     <div class=" img-fluid contact-us-form mt-4">
       <div class="row">
         <div class="col-12 ps-4">
-          <form id="submit-form" class="row g-3 needs-validation mt-2" novalidate>
+          <form id="submit-form" class="row g-3 needs-validation text-center mt-2" novalidate>
             <div class="row justify-content-center">
               <input name="name" type="text" class="form-control" id="validationCustom01" placeholder="Name" required>
-              <div class="invalid-feedback">
-                Enter name
-              </div>
             </div>
             <div class="row justify-content-center mt-4">
               <input name="email" type="text" class="form-control" id="validationCustom02" placeholder="Email" required>
-              <div class="invalid-feedback">
-                Enter email
-              </div>
             </div>
-            <div class="row justify-content-center mt-4">
-              <div class="input-group has-validation">
-                <textarea name="message" type="text" class="form-control" id="validationCustomUsername" rows="3" aria-describedby="inputGroupPrepend" placeholder="Message" required></textarea>
+            <div class="row justify-content-center mt-4 mb-2">
+              <div class="input-group has-validation mb-4">
+                <textarea name="message" type="text" class="form-control" id="validationCustomUsername" rows="3"  placeholder="Message" required></textarea>
                 <div class="invalid-feedback">
-                  Enter message
+                  Please provide a valid city.
                 </div>
               </div>
             </div>
-            <div class="col-12 text-center">
+            <div class="col-12 text-center mt-2">
               <button class="btn btn-primary" value="submit" type="submit" >Submit form</button>
             </div>
           </form>
         </div>
-        <div class="col-12 pt-1">
+        <div class="col-12 mt-3">
           <div class="mail-phone text-center">
             <h5>Email</h5>
             <i class="fa fa-envelope"></i> <a href="mailto:cryptochallengers.info@gmail.com">cryptochallengers.info@gmail.com</a>
@@ -204,7 +198,7 @@
         </div>
       </div>
       <div class="copyright text-center">
-        <div class=" copy pt-2">
+        <div class=" copy mt-5">
           © 2021<strong><a href="#">Crypto Challengers</a></strong>.All rights reserved.
         </div>
       </div>
@@ -213,7 +207,10 @@
 
 
 
+  
   <script src="js/index.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
   <script src="js/bootstrap.js"></script>
 
 </body>

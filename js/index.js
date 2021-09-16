@@ -30,6 +30,26 @@
       })
   })()
 
+//validation
+$(document).ready(function(){
+  $("#submit-form").validate({
+    rules:{
+      name:{
+        required:true,
+      },
+      email:{
+        email:true
+      },
+      message:{
+        required:true,
+        minlength:10
+      }
+      
+    }
+  })
+})
+
+
 //form-submition
 $("#submit-form").submit((e)=>{
   e.preventDefault()

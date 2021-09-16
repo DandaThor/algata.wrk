@@ -193,17 +193,27 @@ header img {
   color: white;
 }
 .card {
-  background: #0d0a1b;
+  background: -webkit-linear-gradient(93deg, rgba(119,76,166,1) 0%, rgba(110,96,194,1) 47%, rgba(103,122,230,1) 100%);
   border: 3px solid transparent;
-  border-radius: 30px;
-  background-image: linear-gradient(#0d0a1b, #0d0a1b),
+  border-radius: 10px;
+  background-image: linear-gradient(rgba(67, 66, 68, 1), rgba(67, 66, 68, 1)),
     linear-gradient(to right, rgb(49, 51, 49), rgb(49, 51, 49));
   background-origin: border-box;
   background-clip: content-box, border-box;
 }
+
+.card h4{
+  background: -webkit-linear-gradient(93deg, rgba(119,76,166,1) 0%, rgba(110,96,194,1) 47%, rgba(103,122,230,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .card:hover {
   margin-top: 2.7rem !important;
   transition: ease 0.3s;
+  background: -webkit-linear-gradient(93deg, rgba(119,76,166,1) 0%, rgba(110,96,194,1) 47%, rgba(103,122,230,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  box-shadow: 0px 0px 20px -10px linen;
 }
 .card-body {
   display: flex;
@@ -226,7 +236,7 @@ video {
 
 .contact {
   width: 100vw;
-  color: white;
+  color: #ff592d;
 }
 .contact-us-form{
   background-image: url("../assets/footer-earth.jpg");
@@ -241,13 +251,19 @@ video {
 .input-group{
   width: 40rem;
 }
-.i
+#submit-form{
+  color: red;
+  height: 30vh;
+}
 .mail-phone .fa {
   display: initial !important;
 }
 .mail-phone a {
-  color: silver;
+  color: #ff592d;
   text-decoration: none;
+}
+.mail-phone a:hover{
+  color: #e4866c;
 }
 @media (max-width: 992px) {
   .rocket-image {
@@ -311,14 +327,14 @@ video {
 }
 .copyright {
   align-self: center;
-  color: silver;
+  color: #ff592d;
 }
 .copy a {
   text-decoration: none;
-  color: silver;
+  color: #ff592d;
 }
 .copy a:hover {
-  color: rgb(114, 113, 113);
+  color: #e4866c;
 }
 
 @media (max-width: 320px) {
