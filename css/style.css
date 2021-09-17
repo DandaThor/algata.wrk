@@ -192,6 +192,12 @@ header img {
   width: 100vw;
   color: white;
 }
+.services .container::before{
+    content: "";
+    width: 500px;
+    height: 500px;
+    background-image:url("../assets/hot-air-left.png");
+}
 .card {
   background: -webkit-linear-gradient(93deg, rgba(119,76,166,1) 0%, rgba(110,96,194,1) 47%, rgba(103,122,230,1) 100%);
   border: 3px solid transparent;
@@ -226,8 +232,10 @@ header img {
   width: 100vw;
   color: white;
 }
+.partners .col-md-4{
+  padding: 0 0;
+}
 .partner-img{
-  height: 3rem;
   width: fit-content;
 }
 video {
@@ -245,11 +253,19 @@ video {
   background-size: cover;
   height: fit-content;
 }
+.contact .btn {
+  border-radius: 25px;
+  background-color: #ff592d;
+  color: #fff;
+}
+.contact .btn:hover {
+  background-color: #e9704e;
+}
 .form-control{
   width: 40rem !important;
 }
 .input-group{
-  width: 40rem;
+  width: 41.5rem;
 }
 #validationCustomUsername-error{
   width: 100%;
