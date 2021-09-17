@@ -246,14 +246,17 @@ video {
   height: fit-content;
 }
 .form-control{
-  width: 40rem;
+  width: 40rem !important;
 }
 .input-group{
   width: 40rem;
 }
+
 #submit-form{
   color: red;
-  height: 30vh;
+}
+#validationCustomUsername-error{
+  padding-left: 12rem;
 }
 .mail-phone .fa {
   display: initial !important;
