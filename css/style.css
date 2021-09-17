@@ -251,12 +251,11 @@ video {
 .input-group{
   width: 40rem;
 }
-
+#validationCustomUsername-error{
+  width: 100%;
+}
 #submit-form{
   color: red;
-}
-#validationCustomUsername-error{
-  padding-left: 12rem;
 }
 .mail-phone .fa {
   display: initial !important;
