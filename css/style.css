@@ -252,6 +252,7 @@ video {
   border-radius: 25px;
   background-color: #ff592d;
   color: #fff;
+  border: none;
 }
 .contact .btn:hover {
   background-color: #e9704e;
@@ -311,6 +312,9 @@ input[placeholder], [placeholder], *[placeholder] {
   #caro {
     margin-left: 20px;
     margin-right: 20px;
+  }
+  .maxw{
+    display: none;
   }
   .caro-img {
     height: 10vh !important;
