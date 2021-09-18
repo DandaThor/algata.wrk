@@ -258,6 +258,17 @@ video {
 }
 .form-control{
   width: 40rem !important;
+  color: white;
+  transition: none;
+  border: none;
+}
+input[placeholder], [placeholder], *[placeholder] {
+  color: white;
+  background-color: #47474c;
+}
+.form-control:focus{
+  background: #47474c;
+  color: white;
 }
 .input-group{
   width: 40rem;

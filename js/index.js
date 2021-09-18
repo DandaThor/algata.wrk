@@ -21,7 +21,6 @@
         
       });
       
-      Resources
 
 //contact form
 
