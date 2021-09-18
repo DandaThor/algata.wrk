@@ -7,29 +7,23 @@
         }
 
 
+        $(function() {
+          var header = $(".bg-dark");
+        
+          $(window).scroll(function() {    
+              var scroll = $(window).scrollTop();
+              if (scroll >= 950) {
+                  header.addClass("scrolled");
+              } else {
+                  header.removeClass("scrolled");
+              }
+          });
+        
+      });
+      
+      Resources
 
 //contact form
-// Example starter JavaScript for disabling form submissions if there are invalid fields
-(function () {
-    'use strict'
-  
-    // Fetch all the forms we want to apply custom Bootstrap validation styles to
-    var forms = document.querySelectorAll('.needs-validation')
-  
-    // Loop over them and prevent submission
-    Array.prototype.slice.call(forms)
-      .forEach(function (form) {
-        form.addEventListener('submit', function (event) {
-          if (!form.checkValidity()) {
-            event.preventDefault()
-            event.stopPropagation()
-          }
-  
-          form.classList.add('was-validated')
-        }, false)
-      })
-  })()
-
 
 /*validation
 $(document).ready(function(){
