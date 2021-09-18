@@ -164,25 +164,7 @@ header img {
   font-weight: bold;
 }
 
-.caro-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-#carouselExampleIndicators {
-  width: 80vh;
-  height: 30vh;
-}
-.carousel-control-next-icon {
-  color: red;
-}
-.carousel-item img {
-  height: 30vh;
-}
-.caro-img {
-  height: 10vh !important;
-  margin-top: 12%;
-}
+
 .center {
   display: flex;
   justify-content: center;
@@ -216,6 +198,7 @@ header img {
 .card:hover {
   margin-top: 2.7rem !important;
   transition: ease 0.3s;
+  background: rgba(67, 66, 68, 1);
   background: -webkit-linear-gradient(93deg, rgba(119,76,166,1) 0%, rgba(110,96,194,1) 47%, rgba(103,122,230,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -238,6 +221,15 @@ header img {
 .partner-img{
   width: fit-content;
 }
+.caro-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#caro .row{
+  justify-content: center;
+}
+
 video {
   width: 100vw;
 }
@@ -265,13 +257,18 @@ video {
   width: 40rem !important;
 }
 .input-group{
-  width: 41.5rem;
+  width: 40rem;
 }
 #validationCustomUsername-error{
   width: 100%;
 }
 #submit-form{
   color: red;
+
+  justify-content: center;
+}
+#submit-form .row .input-group{
+  padding: 0;
 }
 .mail-phone .fa {
   display: initial !important;
@@ -309,6 +306,7 @@ video {
     text-align: center;
   }
 
+
 }
 @media (max-width: 576px) {
   .contain {
@@ -331,10 +329,7 @@ video {
     margin-left: 20px;
     margin-right: 20px;
   }
-  .caro-img {
-    height: 10vh !important;
-    margin-top: 20%;
-  }
+
   .cardpadding {
     padding: 0rem 2rem;
   }

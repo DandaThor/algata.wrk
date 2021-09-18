@@ -30,7 +30,8 @@
       })
   })()
 
-//validation
+
+/*validation
 $(document).ready(function(){
   $("#submit-form").validate({
     rules:{
@@ -48,9 +49,9 @@ $(document).ready(function(){
     }
   })
 })
+*/
 
-
-//form-submition
+/*form-submition
 $("#submit-form").submit((e)=>{
   e.preventDefault()
   $.ajax({
@@ -68,6 +69,46 @@ $("#submit-form").submit((e)=>{
       }
   })
 })
+*/
+$(document).ready(function(){
+  $("#submit-form").validate({
+    rules:{
+      name:{
+        required:true,
+      },
+      email:{
+        email:true
+      },
+      message:{
+        required:true,
+        minlength:10
+      }
+    },
+
+    submitHandler: function(form) {
+      $.ajax({
+        url:"https://script.google.com/macros/s/AKfycbymM0eObSYynWca7LC3jmVAm3gD-A2qOQXG4n8YsWaqY28gJVXb7E1zOPuwLDhuT_F6/exec",
+        data:$("#submit-form").serialize(),
+        method:"post",
+        success:function (response){
+            alert("Form submitted successfully")
+            window.location.reload()
+            //window.location.href="https://google.com"
+        },
+        error:function (err){
+            alert("Something Error")
+
+        }
+      });
+    }
+
+
+  });
+})
+
+
+
+
 
 //animation
 var wow = new WOW(
